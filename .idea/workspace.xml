@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee4f886d-845a-4fdd-b941-e11ebc60f46e" name="Changes" comment="" />
+    <list default="true" id="ee4f886d-845a-4fdd-b941-e11ebc60f46e" name="Changes" comment="start commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +10,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/romanakifev/KEGE-2026.git",
+    "accountId": "c2f35ed7-e979-4f62-877c-43a3464a4277"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
@@ -41,6 +47,19 @@
       <option name="presentableId" value="Default" />
       <updated>1737794567398</updated>
     </task>
+    <task id="LOCAL-00001" summary="start commit">
+      <option name="closed" value="true" />
+      <created>1737794975498</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737794975498</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="start commit" />
   </component>
 </project>
