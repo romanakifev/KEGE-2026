@@ -9,6 +9,6 @@ edinitsi2 = num1 % 10
 sotni3 = sotni1 * sotni2
 desytki3 = desytki1 * desytki2
 edinitsi3 = edinitsi1 * edinitsi2
-print("Произведение сотен: sotni3)3
-print("Произведение десятков: desytki3)
-print("Произведение десятков: edinitsi3)
+print("Произведение сотен:" , sotni3)
+print("Произведение десятков:" ,  desytki3)
+print("Произведение единиц :" , edinitsi3)
