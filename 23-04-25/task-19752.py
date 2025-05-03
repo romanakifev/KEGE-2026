@@ -9,18 +9,19 @@ with open ('26_19752.txt') as file:
         players.append([data[0], summ, plus, ans])
 
 players.sort(key=lambda x:(-x[1], -x[2], -x[3], x[0]))
-print(players[:100])
 cnt_winners = 0
 for player in players[N // 3:]:
     if players[N // 3 - 1][1:] == player[1:]:
         cnt_winners += 1
     players = players[N // 3 + cnt_winners:]
+
 id_winner = players[0]
 cnt_losers = 0
 half_losers = []
 for player in players[:len(players) // 10]:
     if player[1] > 0:
         half_losers.append(player)
+
 for player in players[len(players) // 10:]:
     if half_losers[-1][1:] == player[1:]:
         half_losers.append(player)
