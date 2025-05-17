@@ -1,0 +1,16 @@
+with open('26_21598.txt') as file:
+    N = int(file.readline())
+    office = []
+    for i in file:
+        office.append(list(map(int, i.split())))
+
+office.sort()
+timeline = [0] * 1441
+for i in office:
+    for j in range(i[0], i[1]+1):
+        timeline[j] +=1
+
+
+
+
+
