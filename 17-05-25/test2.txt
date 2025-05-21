@@ -6,26 +6,10 @@ with open('26_21598.txt') as file:
 
 office.sort()
 timeline = [0] * 1441
-cnt = 1
-ans = 0
 for i in office:
-    for j in range(i[0], i[1]):
+    for j in range(i[0], i[1]+1):
         timeline[j] +=1
 changes = []
 for i in range(len(timeline) - 1):
-    if timeline[i] == timeline[i+1]:
-        cnt += 1
-    else:
-        changes.append(i + 1)
-        cnt = 1
-    if cnt > ans:
-        ans = cnt
-print(ans)
-print(changes[-2])
-
-
-
-
-
-
-
+    if timeline[i] != timeline[i+1]:
+    changes.append(i+1)
